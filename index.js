@@ -3,6 +3,19 @@ const input = fs.readFileSync("./dev/stdin").toString().trim().split(""); // \n 
 console.log(input);
 ////////////////////////////////////////
 
+// const aa = Number(input[0]);
+// const bb = Number(input[2]);
+
+// if (aa > bb) console.log(">");
+// if (aa < bb) console.log("<");
+// if (aa === bb) console.log("==");
+
+// A가 B보다 큰 경우에는 '>'를 출력한다.
+// A가 B보다 작은 경우에는 '<'를 출력한다.
+// A와 B가 같은 경우에는 '=='를 출력한다.
+
+////////////////////////////////////////
+
 const first = input[0].split("").join("");
 const second = input[1].split("");
 
