@@ -1,6 +1,6 @@
 const fs = require("fs");
-const input = fs.readFileSync("./dev/stdin").toString().trim().split(" "); // \n or " " or ""
-
+const input = fs.readFileSync("./dev/stdin").toString().trim().split(""); // \n or " " or ""
+console.log(input);
 ////////////////////////////////////////
 
 const first = input[0].split("").join("");
@@ -11,7 +11,7 @@ const b = Number(first) * Number(second[1]);
 const c = Number(first) * Number(second[0]);
 const d = a + b * 10 + c * 100;
 
-console.log(`${a}\n${b}\n${c}\n${d}`);
+// console.log(`${a}\n${b}\n${c}\n${d}`);
 
 ////////////////////////////////////////
 
@@ -21,4 +21,4 @@ const answer = input.map((i, index) => {
   return chess[index] - i;
 });
 
-console.log(...answer);
+// console.log(...answer);
