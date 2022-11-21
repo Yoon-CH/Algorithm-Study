@@ -1,6 +1,6 @@
 const fs = require("fs");
-const input = fs.readFileSync("./dev/stdin").toString().trim().split(""); // \n or " " or ""
-console.log(input);
+const input = fs.readFileSync("./dev/level1").toString().trim().split(""); // \n or " " or ""
+// console.log(input);
 ////////////////////////////////////////
 
 // const aa = Number(input[0]);
